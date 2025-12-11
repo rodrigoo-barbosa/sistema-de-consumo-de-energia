@@ -1,0 +1,21 @@
+.form-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.form-rect {
+  width: 360px;
+  height: 240px;
+  background: #111;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}

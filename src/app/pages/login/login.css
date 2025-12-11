@@ -1,1 +1,30 @@
 
+/* ...existing code... */
+.login-wrapper{
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0;             /* remove margens externas */
+  box-sizing: border-box;
+}
+
+/* remove "bordas" visíveis de inputs e botões */
+.login-wrapper input,
+.login-wrapper button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: inherit;
+}
+
+/* opcional: separar os campos */
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
